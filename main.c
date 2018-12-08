@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mcarney <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mcarney <mcarney@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/24 17:03:23 by mcarney           #+#    #+#             */
-/*   Updated: 2018/07/24 17:03:24 by mcarney          ###   ########.fr       */
+/*   Updated: 2018/12/08 11:05:06 by mcarney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,6 @@ void		rotations(t_wf *wf, t_px *pt)
 	theta_z = wf->zdegrees * .017;
 	pt->tmpy = round(pt->tmpy * cos(theta_x) - pt->z * sin(theta_x));
 	pt->tmpx = round(pt->tmpx * cos(theta_y) + pt->z * sin(theta_y));
-	pt->tmpx = round(pt->tmpx * cos(theta_z) + pt->tmpy * sin(theta_z));
-	pt->tmpy = round(pt->tmpy * cos(theta_z) - pt->tmpx * sin(theta_z));
 }
 
 void		calibrate(t_wf *wf)
