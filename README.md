@@ -11,4 +11,4 @@ Run `./fdf <map> [integer]`.
 Test maps can be found in the maps directory and the optional integer parameter will affect display colors.
 
 ## Example
-![T1 Map Example](https://raw.githubusercontent.com/mecarney/3d_modeling/master/t1_map.png)
+![T1 Map Example](https://raw.githubusercontent.com/mecarney/3d_modeling/master/t1_map.gif)
